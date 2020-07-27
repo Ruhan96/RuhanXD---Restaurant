@@ -1,0 +1,80 @@
+
+    /* Tablet Layout */
+
+@media only screen and (min-width:200px) and (max-width:1170px) {
+    #header {flex-direction: column;text-align: center;}
+    #header ul {position: relative;top: -5px;margin: 0 auto;}
+    .logo img { position: relative;top: 5px;}
+    #top_sec {top: -136px;}
+    .h-primary {top: 175px;font-size: 35px;}
+    #top_sec p {top: 175px;font-size: 17px;}
+    #top_sec button {top: 190px;font-size: 15px;width: 90px;}
+    #main_services {top: -145px;}
+    .h-services {font-size: 40px;position: relative;top: 10px;}
+    #our_clients {top: 15px;}
+    #contact {top: 59px;}
+    #footer {top: 130px;}
+    .box p {font-size: 14px;}
+    .services {flex-direction: column;margin: 10px 50px;}
+    .box {margin: 20px 0px;padding: 5px 15px;}
+    #our_clients {top: 624px;}
+    .clients img {padding: 0px 20px;height: 100px;}
+    .h-third {position: relative;top: 10px;font-size: 42px;}
+    #contact {top: 699px;}
+    .h-fourth {font-size: 42px;}
+    .contact_form input {width: 500px;}
+    .contact_form textarea {width: 500px;}
+    #footer {top: 785px;}
+    .h-fifth {font-size: 15px;}
+}
+
+    /* Mobile Layout */
+
+@media only screen and (min-width:200px) and (max-width:660px) {
+    .logo img {height: 60px;width: 60px;margin: 5px 20px;top: -5px;}
+    #header {padding: 10px 0px;}
+    #header ul {top: -1px;}
+    #header ul li a {padding: 1px 9px;font-size: 11px;}
+    #top_sec {top: -160px;height: 440px;}
+    .h-primary {top: 190px;font-size: 25px;}
+    #top_sec p {top: 190px;font-size: 13px;padding: 0px 0px;}
+    #top_sec button {top: 205px;font-size: 13px;width: 80px;}
+    #main_services {top: -107px;}
+    .h-services {font-size: 35px;top: -25px;}
+    .box {margin: 7px 0px;}
+    .box img {margin: 0px auto;height: 110px;}
+    .box h2 {font-size: 25px;margin-top: 0px;}
+    .box p {font-size: 10px;padding: 0 5px;}
+    #our_clients {top: 250px;}
+    .h-third {font-size: 35px;}
+    .clients::before {height: 225px;}
+    .clients img {padding: 0px 8px;height: 60px;}
+    #contact {top: 329px;}
+    #contact::before {height: 625px;}
+    .h-fourth {padding-top: 35px;font-size: 35px;}
+    .contact_form label {font-size: 15px;}
+    .contact_form input {width: 300px;}
+    .contact_form textarea {width: 300px;}
+    #footer {top: 410px;}
+    .inner_footer::before {height: 30px;}
+    .h-fifth {font-size: 11px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
